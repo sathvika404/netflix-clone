@@ -1,0 +1,250 @@
+body{
+    font-family: sans-serif;
+  background-color: black;
+  
+}
+
+
+.navbar{
+    height: 100px;
+    margin-top: 0px;
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.logo{
+    background-image: url('netflixlogo.jpg');
+    height: 70px;
+    background-size: cover;
+    width: 120px;
+    margin-left: 100px;
+    
+}
+.Lang{
+
+    height:35px;
+    width:65px;
+    margin-left: 800px;
+    align-items: center;
+    justify-content: center;
+}
+.search-select{
+    height: 35px;
+    width:65px;
+    background-color: rgb(241, 231, 231);
+    border: 0.5px solid rgb(236, 230, 230);
+    color: rgb(14, 13, 13);
+}
+.signin{
+    background-color: red;
+    color: rgb(15, 15, 15);
+    font-size: 1rem;
+    height:30px;
+    width:65px;
+    border: 0.5px solid white;
+    margin-left: 80px;
+    text-align: center;
+    border-radius: calc(0.25rem - 0.0625rem);
+}
+.signin:hover{
+    transform: scale(1.05);
+    transition-duration: 5ms;
+}
+.image{
+    margin-top: 5px;
+    height:500px;
+    width: 100%;
+    background-image: url('backgroundimage.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius:30%;
+    border-bottom-right-radius: 30%;
+    background-color: none;
+
+}
+.font{
+    font-size: 2rem;
+    font-weight: 700;
+    color:white
+}
+.sub{
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+}
+.s{
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+}
+.form{
+    height: 48px;
+    width:370px;
+    color: rgb(34, 5, 5);
+    margin-left: 10px;
+    border: 0.5px solid rgb(204, 202, 202);
+    margin-top: 10px;
+    
+}
+.get{
+    margin-top: 15px;
+    margin-left: 30px;
+    background-color: rgb(253, 8, 8);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    width: 170px;
+    height: 50px;
+    border-radius: 0.45rem;
+    justify-content: center;
+    align-items: center;
+}
+.get:hover{
+transform: scale(1.05);
+transition-duration: 0.5sec;
+}
+.trend{
+    background-color: black;
+    color: white;
+    margin-left: 100px;
+}
+.rect{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    border-radius: 0.5rem;
+  
+}
+
+.box{
+  
+    height: 250px;
+    width:15%;
+ 
+    background-color: white;
+    margin-top: 15px;
+border-radius: 5%;} 
+.box:hover{
+transform: scale(1.07);
+transition-duration: 0.5sec;
+}
+.box-img{
+    height: 250px;
+    background-size: cover;
+    border-radius: 0.5rem;
+}
+.r{
+    display: flex;
+    justify-content: space-evenly;
+}
+.bo{
+  
+    height:300px;
+    width:20%;
+    background-color:#040127;
+    color:white;
+
+    margin-top: 15px;
+border-radius: 5%;} 
+.a{
+    margin: 10px;
+    font-size: 1.5rem;
+  font-weight: 700;
+  background-color: #040127;
+}
+.b{
+    background-color: #040127;
+    color: rgb(216, 209, 209);
+    margin: 25px;
+    font-size: 1rem;
+  font-weight: 400;
+}
+.c{
+    height: 30px;
+    width:30px;
+    color:palevioletred;   
+}
+.f{
+    color: white;
+    margin-left: 100px;
+}
+.q{
+    height:100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 10px;
+    width:800px;
+    background-color: rgb(49, 48, 48);
+    color: aliceblue;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.foot2{
+    height:300px;
+
+    justify-content: center;
+    align-items: center;
+}
+.f2{
+    margin-top: 75px;
+    color: aliceblue;
+    text-align: center;
+}
+.f3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.for{
+    height: 48px;
+    width:370px;
+    color: rgb(17, 3, 3);
+    margin-left: 10px;
+    border: 0.5px solid rgb(204, 202, 202);
+    margin-top: 10px;  
+}
+.ge{
+    margin-top: 15px;
+    margin-left: 30px;
+    background-color: rgb(253, 8, 8);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 0.45rem;
+    justify-content: center;
+    align-items: center;
+}
+.foot3{
+    color:beige;
+     text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.foot4{
+    color: rgb(234, 236, 236);
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a{
+    text-decoration: underline;
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 14px;
+}ul {
+    margin-top: 20px;
+ }
+ @media (max-width: 768px) {
+    .rect {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
